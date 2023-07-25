@@ -11,4 +11,4 @@
    ![](./img/2.jpg)
    ![](./img/3.jpg)
 3. 然后每天的 20:30(北京时间) 会自动进行签到，在 Actions 中查看运行结果；
-4. 目前不支持通过secrets自定义时间，如果想修改时间，更改 .github/workflows/python.yml 文件中的 `cron` 字段。注意是世界标准时间。
+4. 目前不支持通过secrets自定义时间，如果想修改时间，更改 .github/workflows/python.yml 文件中的 `cron` 字段。注意是世界标准时间；corn格式可以参考网站：https://crontab.guru/
