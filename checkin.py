@@ -7,7 +7,7 @@ def signin():
     session = requests.Session()
 
     # 发送登录请求
-    login_url = 'https://sockboom.link/auth/login'
+    login_url = 'https://sockboom.id/auth/login'
     login_data = {
         'email': os.environ.get('EMAIL'),
         'passwd': os.environ.get('PASSWD')
@@ -22,7 +22,7 @@ def signin():
         print('登陆成功')
 
     # 发送签到请求
-    signin_url = 'https://sockboom.link/user/checkin'
+    signin_url = 'https://sockboom.id/user/checkin'
     response = session.post(signin_url)
 
     # 检查签到是否成功
