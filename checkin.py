@@ -7,7 +7,7 @@ def signin():
     session = requests.Session()
 
     # 发送登录请求
-    login_url = 'https://sockboom.id/auth/login'
+    login_url = 'https://sockboom.buzz/auth/login'
     login_data = {
         'email': os.environ.get('EMAIL'),
         'passwd': os.environ.get('PASSWD')
