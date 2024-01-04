@@ -22,7 +22,7 @@ def signin():
         print('登陆成功')
 
     # 发送签到请求
-    signin_url = 'https://sockboom.id/user/checkin'
+    signin_url = 'https://sockboom.buzz/user/checkin'
     response = session.post(signin_url)
 
     # 检查签到是否成功
